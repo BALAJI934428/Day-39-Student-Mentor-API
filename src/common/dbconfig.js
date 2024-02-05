@@ -2,7 +2,7 @@ const mongoose = require("mongoose");
 const dotenv = require("dotenv");
 dotenv.config();
 // const env = require('../../src/')
-const uri = "mongodb://localhost:27017";
+const uri = "mongodb+srv://student:bEszicUXP7gJebsJ@student-mentor-api.hb6mogg.mongodb.net/?retryWrites=true&w=majority";
 console.log(uri);
 
 async function connectDB() {
