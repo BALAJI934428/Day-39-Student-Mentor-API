@@ -1,0 +1,60 @@
+To Create a Student =>POST Request
+
+https://student-mentor-api-h8jx.onrender.com/students/create
+
+JSON Data
+
+{
+    "name":"student",
+    "age":20
+}
+
+
+
+
+To Create a Mentor =>POST Request
+
+https://student-mentor-api-h8jx.onrender.com/mentors/create
+
+JSON Data
+
+{
+    "name":"mentors",
+    "expertise":"5yrs"
+}
+
+
+
+To Assign mentor from Student side =>POST Request
+
+https://student-mentor-api-h8jx.onrender.com/students/assign-mentor/65c0838a79a63b7a3b148308/65c0850979a63b7a3b14830a
+
+
+
+Get Mentor From Student side => GET Request
+
+https://student-mentor-api-h8jx.onrender.com/students/student-mentor/65c072552853816a9f24fb17
+
+
+
+Get Students from Mentor Side => GET Request
+
+https://student-mentor-api-h8jx.onrender.com/mentors/mentor-students/65c0850979a63b7a3b14830a
+
+
+
+Assign Students to Mentor => POST Request
+
+https://student-mentor-api-h8jx.onrender.com/mentors/add-students-to-mentor/65c0850979a63b7a3b14830a
+
+JSON Data
+
+{
+    "studentIds":["65c085df79a63b7a3b148313","65c085e979a63b7a3b148315"]
+}
+
+
+
+
+
+
